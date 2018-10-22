@@ -5,6 +5,7 @@
    "devDependencies": {
       "@types/bcryptjs": "^2.4.2",
       "@types/uuid": "^3.4.4",
+      "@types/yup": "^0.26.0",
       "gql2ts": "^1.10.1",
       "nodemon": "^1.18.4",
       "ts-node": "^6.2.0",
@@ -20,8 +21,7 @@
       "graphql-yoga": "^1.16.7",
       "pg": "^7.3.0",
       "reflect-metadata": "^0.1.10",
-      "typeorm": "^0.2.8",
-      "uuid": "^3.3.2"
+      "typeorm": "^0.2.8"
    },
    "scripts": {
       "start": "nodemon --exec ts-node src/index.ts",
